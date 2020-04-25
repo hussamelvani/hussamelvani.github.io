@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="Hüssam Elvani's Personal Website."/>
     <title>Hüssam Elvani - Personal Website</title>
+    <meta name="author" content="Hüssam Elvani" />
     <base href="/" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/site.css" rel="stylesheet" />
-    <script src="_content/Telerik.UI.for.Blazor/js/telerik-blazor.js" defer></script>
-    <link rel="stylesheet" href="_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css" />
+    <!-- FontAwesome Free version-->
+    <link href="css/FontAwesome/all.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Loader Style CSS-->
+    <link href="css/customLoader.css" rel="stylesheet"/>
+    <link href="css/error.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <app>Loading...</app>
+    <app>
+        <div class="loading-section">
+            <h2>Loading...</h2>
+            <div class="short-description">Please wait while I load my expertise.</div>
+            <div class="loader mt-5">
+                <div class="loader-dot dot1"></div>
+                <div class="loader-dot dot2"></div>
+                <div class="loader-dot dot3"></div>
+            </div>
+        </div>
+    </app>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
-</body>
 
+    <script src="_framework/blazor.webassembly.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
