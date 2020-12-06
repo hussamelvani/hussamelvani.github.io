@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Hüssam Elvani's Personal Website."/>
+    <meta name="description" content="Hüssam Elvani's Personal Website." />
     <title>Hüssam Elvani - Personal Website</title>
     <meta name="author" content="Hüssam Elvani" />
     <base href="/" />
@@ -15,11 +15,12 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <!-- Loader Style CSS-->
-    <link href="css/customLoader.css" rel="stylesheet"/>
-    <link href="css/error.css" rel="stylesheet"/>
+    <link href="HussamPersonalWebsite.styles.css" rel="stylesheet" />
+    <link href="css/customLoader.css" rel="stylesheet" />
+    <link href="css/error.css" rel="stylesheet" />
 </head>
 <body>
-    <app>
+    <div id="app">
         <div class="loading-section">
             <h2>Loading...</h2>
             <div class="short-description">Please wait while I load my expertise.</div>
@@ -29,7 +30,7 @@
                 <div class="loader-dot dot3"></div>
             </div>
         </div>
-    </app>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -37,9 +38,10 @@
         <a class="dismiss">🗙</a>
     </div>
 
-    <script src="_framework/blazor.webassembly.js"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="_framework/blazor.webassembly.js"></script>
 </body>
 </html>

@@ -1,0 +1,69 @@
+/* /Pages/Blog.razor.rz.scp.css */
+*[b-90gmfddsuy] {
+    box-sizing: border-box;
+}
+
+html[b-90gmfddsuy] {
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* transform to imitate browser zoom */
+
+.zoom[b-90gmfddsuy] {
+    transform-origin: 50% 100%;
+    transform: scale(1.6);
+}
+
+.wrapper[b-90gmfddsuy] {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 3em 1em 3em 1em;
+}
+
+.box[b-90gmfddsuy] {
+    display: inline-block;
+}
+
+.letter[b-90gmfddsuy] {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    color: #1abc9c;
+    line-height: 0.7;
+}
+
+.font1[b-90gmfddsuy] {
+    font-family: 'Shadows Into Light';
+}
+
+.font2[b-90gmfddsuy] {
+    font-family: 'Chewy';
+}
+
+.font3[b-90gmfddsuy] {
+    font-family: 'Arial';
+}
+
+
+/*  Bouncing Animation */
+
+@keyframes bounce-b-90gmfddsuy {
+    from {
+        transform: translate3d(-43px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(-43px, -10px, 0);
+    }
+}
+
+.bounce[b-90gmfddsuy] {
+    animation: bounce-b-90gmfddsuy 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
